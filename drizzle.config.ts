@@ -6,6 +6,6 @@ export default defineConfig({
   schema: "./src/db/schema/index.ts",
   out: "./drizzle",
   dbCredentials: {
-    url: "postgresql://docker:docker@localhost:5432/pizzashop",
+    url: env.DATABASE_URL,
   },
 })
