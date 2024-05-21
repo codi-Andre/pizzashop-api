@@ -10,7 +10,8 @@
     "generate": "drizzle-kit generate",
     "migrate": "drizzle-kit migrate",
     "studio": "drizzle-kit studio",
-    "lint": "eslint --fix src --ext ts"
+    "lint": "eslint --fix src --ext ts",
+    "seed": "bun src/db/seed.ts"
   },
   "dependencies": {
     "@paralleldrive/cuid2": "^2.2.2",
