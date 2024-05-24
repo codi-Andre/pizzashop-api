@@ -21,12 +21,14 @@
     "dotenv": "^16.4.5",
     "drizzle-orm": "^0.30.10",
     "elysia": "^1.0.20",
+    "nodemailer": "^6.9.13",
     "postgres": "^3.4.4",
     "zod": "^3.23.8"
   },
   "devDependencies": {
     "@faker-js/faker": "^8.4.1",
     "@types/bun": "latest",
+    "@types/nodemailer": "^6.4.15",
     "@typescript-eslint/eslint-plugin": "^7.10.0",
     "@typescript-eslint/parser": "^7.10.0",
     "drizzle-kit": "^0.21.2",
