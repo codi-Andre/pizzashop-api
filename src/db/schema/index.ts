@@ -1,3 +1,6 @@
 export * from "./users.ts"
 export * from "./restaurants.ts"
 export * from "./auth-links.ts"
+export * from "./products.ts"
+export * from "./orders.ts"
+export * from "./order-items.ts"
