@@ -43,6 +43,13 @@
       "when": 1716672540065,
       "tag": "0005_lumpy_praxagora",
       "breakpoints": true
+    },
+    {
+      "idx": 6,
+      "version": "6",
+      "when": 1717511678867,
+      "tag": "0006_pink_gunslinger",
+      "breakpoints": true
     }
   ]
 }
