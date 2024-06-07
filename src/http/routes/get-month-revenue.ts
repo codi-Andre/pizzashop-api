@@ -50,7 +50,7 @@ export const getMonthRevenue = new Elysia()
         : null
 
     return {
-      receipt: currentMonthRevenue?.revenue || 0,
+      revenue: currentMonthRevenue?.revenue || 0,
       diffFromLastMonth: diffFromLastMonth
         ? Number((diffFromLastMonth - 100).toFixed(2))
         : 0,
